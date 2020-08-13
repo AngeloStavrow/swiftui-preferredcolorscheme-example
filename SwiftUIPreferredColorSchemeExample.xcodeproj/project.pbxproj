@@ -13,6 +13,8 @@
 		17D5E03124E59AD400D5C755 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5E01C24E59AD200D5C755 /* ContentView.swift */; };
 		17D5E03224E59AD400D5C755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D5E01D24E59AD400D5C755 /* Assets.xcassets */; };
 		17D5E03324E59AD400D5C755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D5E01D24E59AD400D5C755 /* Assets.xcassets */; };
+		17D5E03D24E5A4FB00D5C755 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5E03C24E5A4FB00D5C755 /* Preferences.swift */; };
+		17D5E03E24E5A4FB00D5C755 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5E03C24E5A4FB00D5C755 /* Preferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		17D5E02A24E59AD400D5C755 /* SwiftUIPreferredColorSchemeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPreferredColorSchemeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D5E02C24E59AD400D5C755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17D5E02D24E59AD400D5C755 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		17D5E03C24E5A4FB00D5C755 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		17D5E01A24E59AD200D5C755 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				17D5E03C24E5A4FB00D5C755 /* Preferences.swift */,
 				17D5E01B24E59AD200D5C755 /* SwiftUIPreferredColorSchemeExampleApp.swift */,
 				17D5E01C24E59AD200D5C755 /* ContentView.swift */,
 				17D5E01D24E59AD400D5C755 /* Assets.xcassets */,
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D5E03D24E5A4FB00D5C755 /* Preferences.swift in Sources */,
 				17D5E03024E59AD400D5C755 /* ContentView.swift in Sources */,
 				17D5E02E24E59AD400D5C755 /* SwiftUIPreferredColorSchemeExampleApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D5E03E24E5A4FB00D5C755 /* Preferences.swift in Sources */,
 				17D5E03124E59AD400D5C755 /* ContentView.swift in Sources */,
 				17D5E02F24E59AD400D5C755 /* SwiftUIPreferredColorSchemeExampleApp.swift in Sources */,
 			);

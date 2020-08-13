@@ -1,21 +1,21 @@
-//
-//  ContentView.swift
-//  Shared
-//
-//  Created by Angelo Stavrow on 2020-08-13.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var prefs: Preferences
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Picker(selection: $prefs.schemeSelection, label: Text("Color Scheme")) {
+            Text("System").tag(0)
+            Text("Light").tag(1)
+            Text("Dark").tag(2)
+        }
+        .pickerStyle(SegmentedPickerStyle())
+        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(prefs: Preferences())
     }
 }
