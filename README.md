@@ -1,4 +1,4 @@
-# swiftui-preferredcolorscheme-example
+# SwiftUI preferredColorScheme Example
 
 A demo of the [preferredColorScheme modifier](https://developer.apple.com/documentation/swiftui/group/preferredcolorscheme(_:)) in SwiftUI multiplatform apps that demonstrates a couple of bugs:
 
