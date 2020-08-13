@@ -22,14 +22,14 @@ The app continues to be presented in its light colour scheme.
 
 The app switches to match the system’s colour scheme.
 
-## FB8383053 - "On iOS 14β4, it is not possible to unset preferredColorScheme after setting it to either .light or .dark"
+## FB8383053 - "On iOS 14β4/macOS 11β4, it is not possible to unset preferredColorScheme after setting it to either .light or .dark"
 
-In iOS 14β4, if a view’s `preferredColorScheme` is initially `nil`, the view will respect the system scheme setting. After setting the `preferredColorScheme` modifier on the view to either `.light` or `.dark`, it is no longer possible to revert back to having the app respect the system scheme setting. 
+In iOS 14β4/macOS 11β4, if a view’s `preferredColorScheme` is initially `nil`, the view will respect the system scheme setting. After setting the `preferredColorScheme` modifier on the view to either `.light` or `.dark`, it is no longer possible to revert back to having the app respect the system scheme setting. 
 
 ### Steps to Reproduce
 
 1. Open the attached SwiftUI multiplatform sample project
-2. Build and run the iOS app
+2. Build and run the iOS or macOS app
 3. Observe that the default “System” option sets the app’s color scheme based on the system setting
 4. Choose either the “Light” or “Dark” option in the segmented control, and observe that the app’s color scheme changes to that selection
 5. Choose the “System” option again and test changing the system’s scheme setting
